@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.hero {
+    background: linear-gradient(135deg, #66b2ff, #88d4ff);
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.hero nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hero nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.pub-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
